@@ -23,6 +23,16 @@ body {
     padding-block: 20px;
 }
 
+body #background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -98,9 +108,3 @@ footer a:hover {
     text-decoration: underline;
     color: #77a2bd;
 }
-
-/* @media (max-width: 500px) {
-    main a {
-        max-width: 360px;
-    }
-} */
