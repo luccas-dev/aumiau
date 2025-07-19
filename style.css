@@ -7,21 +7,26 @@
 html {
     min-height: 100%;
     background: url("./assets/bg.png") no-repeat center/cover;
-
+    
     font-family: "Poppins", sans-serif;
 }
 
-.container {
+body {
     max-width: 500px;
     margin: auto;
 
     padding-block: 20px;
 }
 
-header {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    margin-bottom: 50px;
+}
+
+header {
     gap: 15px;
 
     color: #D0EEFF;
@@ -42,4 +47,29 @@ header p {
     font-size: 1rem;
     font-weight: lighter;
     font-style: italic;
+}
+
+main {
+    gap: 40px;
+    text-align: center;
+}
+
+main a {
+    max-width: 500px;
+    width: 100%;
+
+    text-decoration: none;
+    font-weight: bold;
+    color: #000525;
+
+    padding: 22px 0;
+    border-radius: 15px;
+
+    background-color: #A7D9F7;
+    transition: background-color .5s;
+}
+
+main a:hover {
+    background-color: #a7d8f7c5;
+    box-shadow: 0 2px 4px 0 #000;
 }
